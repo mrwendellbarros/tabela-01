@@ -1,0 +1,64 @@
+body {
+    display: block;
+    margin: 8px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    width: 20%;
+    background-color: rgb(240, 248, 255);
+    vertical-align: middle;
+}
+
+
+#cabecalho {
+    background-color: rgb(168, 218, 213);
+}
+
+/* icones */
+
+.wi-day-cloudy::before {
+    content: "\f002";
+}
+
+.wi-day-sunny::before {
+    content: "\f00d";
+}
+
+.wi-day-rain::before {
+    content: "\f008";
+}
+
+.wi-day-lightning::before {
+    content: "\f005";
+}
+
+.wi-day-windy::before {
+    content: "\f085";
+}
+
+.wi-cloudy::before {
+    content: "\f013";
+}
+
+.wi-day-cloudy::before {
+    content: "\f002";
+}
+
+
+tr,td{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+tr:hover {
+    background-color: rgb(168, 218, 213);
+}
+
+td {
+    cursor: pointer;
+}
